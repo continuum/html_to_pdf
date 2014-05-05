@@ -1,12 +1,14 @@
 # HtmlToPdf
 
-TODO: Write a gem description
+This gem wraps a java tool that converts html files to pdf. You can invoke it like this:
+
+    $ html_to_pdf -htmlfile /path/to/file.html -pdffile /path/to/file.pdf
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'html_to_pdf'
+    gem 'html_to_pdf', github: 'continuum/html_to_pdf'
 
 And then execute:
 
@@ -18,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO: Write more detailed usage instructions here
 
 ## Contributing
 
