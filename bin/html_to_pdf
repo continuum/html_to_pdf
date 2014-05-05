@@ -1,3 +1,6 @@
 #!/usr/bin/env ruby
+
+require 'html_to_pdf'
+
 args = ARGV.map { |arg| %Q{"#{arg}"} }.join(' ')
-`java -Xmx300m -jar vendor/html-to-pdf.jar #{args}`
+`java -Xmx300m -jar #{HtmlToPdf.root}/vendor/html-to-pdf.jar #{args}`
