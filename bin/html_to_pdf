@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+args = ARGV.map { |arg| %Q{"#{arg}"} }.join(' ')
+`java -Xmx300m -jar vendor/html-to-pdf.jar #{args}`
